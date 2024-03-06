@@ -73,6 +73,16 @@
     justify-content: center;
   }
   
+  form a {
+    color: white;
+    text-decoration: none;
+  } 
+
+  form a::after {
+    color: white;
+    text-decoration: none;
+  } 
+
   input[type="email"] {
     padding: 0.5rem;
     border: 1px solid #ccc;
