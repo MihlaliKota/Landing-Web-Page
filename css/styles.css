@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #FFE9CF; /* Set background color */
+}
+
+header {
+    padding: 20px;
+    text-align: center;
+    background-color: #005247; /* Set header background color */
+    color: #FFFFFF; /* Set header text color */
+}
+
+h1, h2 {
+    color: #005247; /* Set heading text color */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #FFFFFF; /* Set section background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; /* Add some margin to separate the image from the text */
+    border-radius: 10px;
+    overflow: hidden; /* Hide overflow */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    flex: 2;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services, .benefits, .cta {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #FFFFFF; /* Set section background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.cta {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #005247; /* Set footer background color */
+    color: #FFFFFF; /* Set footer text color */
+}
+
+button {
+    background-color: #E07613; /* Set button background color */
+    color: #FFFFFF; /* Set button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #FFA94D; /* Set button hover background color */
+}
