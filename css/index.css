@@ -115,7 +115,31 @@
     padding: 1rem;
     text-align: center;
   }
+
+  .footer-section li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+  }
   
+  .footer-section a:link {
+    color: white;
+    text-decoration: none; 
+}
+
+.footer-section a:visited {
+    color: white;
+    text-decoration: none; 
+}
+
+.footer-section a:hover {
+    color: red; 
+}
+
+.footer-section a:active {
+    color: green; 
+}
+
   .social-links a {
     color: #fff;
     margin-left: 1rem;
