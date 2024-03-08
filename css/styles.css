@@ -13,7 +13,7 @@
   
   /* Header styles */
   header {
-    background-color: #333;
+    background-color: #fff;
     color: #fff;
     padding: 1rem;
   }
@@ -30,12 +30,12 @@
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: #ff6600;
   }
   
   /* Hero section styles */
   .hero {
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     padding: 4rem 2rem;
     text-align: center;
   }
@@ -91,7 +91,7 @@
   }
   
   button[type="submit"] {
-    background-color: #333;
+    background-color: #ff6600;
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -117,13 +117,13 @@
   
   .feature i {
     font-size: 3rem;
-    color: #333;
+    color: #ff6600;
     margin-bottom: 1rem;
   }
   
   /* Testimonials section styles */
   .testimonials {
-    background-color: #f5f5f5;
+    background-color: #f2f2f2;
     padding: 4rem 2rem;
     text-align: center;
   }
@@ -144,7 +144,7 @@
   
   .testimonial-card i {
     font-size: 2rem;
-    color: #333;
+    color: #ff6600;
     margin-bottom: 1rem;
   }
   
@@ -162,6 +162,10 @@
     height: 50px;
     border-radius: 50%;
     margin-right: 1rem;
+  }
+
+  .customer-info h4 {
+    color: #ff6600;
   }
   
   /* Footer styles */
