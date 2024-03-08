@@ -20,7 +20,7 @@
         <div class="signup-container">
           <h1>Join SeeCar</h1>
           <p>Sign up to access our comprehensive directory of mechanics and mechanical shops, and enjoy exclusive deals and promotions.</p>
-          <form>
+          <form action="indexes.html">
             <div class="form-group">
               <label for="name">Full Name</label>
               <input type="text" id="name" name="name" required>
@@ -33,7 +33,11 @@
               <label for="password">Password</label>
               <input type="password" id="password" name="password" required>
             </div>
-            <button type="submit" class="btn"><a href="indexes.html">Sign Up</a></button>
+            <div class="form-group">
+              <label for="confirm-password">Confirm Password</label>
+              <input type="password" id="confirm-password" name="confirm-password" required>
+            </div>
+            <button type="submit" class="btn">Sign Up</button>
           </form>
         </div>
       </div>
